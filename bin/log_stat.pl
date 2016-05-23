@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 
-use Try::Tiny;
-use File::Tail;
+use lib '../lib/perl';
+use LogEv;
 
-print "Hello world!";
+LogEv::WatchLog();
